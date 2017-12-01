@@ -1,0 +1,33 @@
+name: drag_drop
+version: 1.0.0
+description: 'HTML5 Drag Drop library written in Dart'
+homepage: http://www.github.com/wrike/drag-drop.dart
+authors:
+- Oleg Bezuglov <oleg.bezuglov@team.wrike.com>
+
+environment:
+  sdk: '>=1.24.1 <2.0.0'
+
+dependencies:
+  built_collection: ^1.5.0
+  built_value: ^2.1.0
+  js: ^0.6.1
+  quiver: ^0.23.0
+  throttle_debounce: ^0.1.2
+  user_environment: ^1.0.0
+
+dev_dependencies:
+  analyzer: ^0.29.0
+  browser: ^0.10.0
+  mockito: ^1.0.0
+  test: 0.12.22
+
+dependency_overrides:
+  user_environment:
+    git:
+      url: 'git@github.com:wrike/user-environment.dart.git'
+      ref: 'deploy'
+
+transformers:
+- test/pub_serve:
+    $include: test/**_test{.*,}.dart

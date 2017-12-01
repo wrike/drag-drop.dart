@@ -1,0 +1,12 @@
+name: drag_drop_generate
+version: 1.0.0
+description: 'HTML5 Drag Drop library models generator'
+
+environment:
+  sdk: ">=1.24.1 <2.0.0"
+
+dependencies:
+  build: 0.9.3
+  build_runner: 0.3.4+1
+  built_value_generator: 2.1.0
+  source_gen: 0.7.0
