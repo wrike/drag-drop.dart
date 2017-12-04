@@ -1,6 +1,8 @@
-import 'fixture/fixture.dart';
+@TestOn('browser')
 
 import 'package:quiver/core.dart';
+
+import 'fixture/fixture.dart';
 
 
 void main() {

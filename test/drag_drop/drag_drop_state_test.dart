@@ -1,3 +1,5 @@
+@TestOn('browser')
+
 import 'fixture/fixture.dart';
 import 'package:quiver/core.dart';
 

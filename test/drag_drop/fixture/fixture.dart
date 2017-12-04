@@ -1,3 +1,7 @@
+@TestOn('browser')
+
+import 'package:test/test.dart';
+
 export 'package:drag_drop/drag_drop.dart';
 
 export '../../common.dart';

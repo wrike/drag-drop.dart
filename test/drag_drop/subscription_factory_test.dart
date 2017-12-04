@@ -1,3 +1,5 @@
+@TestOn('browser')
+
 import 'fixture/fixture.dart';
 
 void main() {

@@ -1,3 +1,5 @@
+@TestOn('browser')
+
 import 'package:user_environment/user_environment.dart';
 import 'package:drag_drop/drag_drop.dart';
 import '../../common.dart';
