@@ -1,3 +1,7 @@
+import 'package:test/test.dart';
+
+@TestOn('browser')
+
 export 'dart:html';
 export 'dart:async';
 export 'package:test/test.dart';

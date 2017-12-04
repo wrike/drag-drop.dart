@@ -1,5 +1,8 @@
+@TestOn('browser')
+
 import 'dart:html';
 import 'package:mockito/mockito.dart';
+import 'package:test/test.dart';
 
 class ElementMock extends Mock implements Element {
   int scrollLeft = 0;

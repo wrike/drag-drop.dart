@@ -1,7 +1,10 @@
+@TestOn('browser')
+
 import 'dart:async';
 import 'dart:html';
 import 'package:mockito/mockito.dart';
 import 'mocks.dart';
+import 'package:test/test.dart';
 
 const int ELEMENT_WIDTH = 120;
 const int ELEMENT_HEIGHT = 120;
