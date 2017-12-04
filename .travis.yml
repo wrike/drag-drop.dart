@@ -6,7 +6,6 @@ dart:
 
 dart_task:
 - analyzer: --strong --fatal-warnings
-- test: --platform vm
 - test: --platform dartium
   install_dartium: true
 
