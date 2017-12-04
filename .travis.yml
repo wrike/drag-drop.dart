@@ -1,0 +1,14 @@
+language: dart
+sudo: false
+
+dart:
+- dev
+
+dart_task:
+- analyzer: --strong --fatal-warnings
+- test: --platform dartium
+  install_dartium: true
+
+cache:
+  directories:
+    - $HOME/.pub-cache

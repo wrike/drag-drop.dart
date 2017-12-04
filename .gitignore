@@ -1,0 +1,18 @@
+# Files and directories created by pub
+.packages
+.buildlog
+.dart_tool/
+.pub/
+build/
+dist/
+node_modules/
+rpmbuild/
+packages
+pubspec.lock
+.DS_Store
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
